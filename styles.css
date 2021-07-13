@@ -34,13 +34,55 @@ header img {
 header a {
 	text-decoration: none;
 	color: var(--pink);
-	cursor: pointer;
 	border: 1px solid var(--pink);
 	border-radius: 2rem;
 	padding: 0.4rem 1.5rem;
 	text-transform: capitalize;
 	-webkit-box-shadow: 0px 0px 6px -2px var(--pink);
 	box-shadow: 0px 0px 6px -2px var(--pink);
+}
+header a:hover {
+	cursor: pointer;
+}
+
+.build-community-section {
+	text-align: center;
+	margin-bottom: 10rem;
+}
+.build-community-section h1 {
+	font-size: 2.18rem;
+	text-transform: capitalize;
+}
+.build-community-section p {
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 2rem;
+	margin-bottom: 5.2rem;
+}
+.build-community-section a {
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--very-pale-blue);
+	background-color: var(--pink);
+	border: 1px solid transparent;
+	border-radius: 2rem;
+	padding: 1.1rem 4rem;
+	text-transform: capitalize;
+	-webkit-box-shadow: 0px 0px 9px -2px var(--pink);
+	box-shadow: 0px 0px 9px -2px var(--pink);
+	transition: all 0.3s ease-in;
+}
+.build-community-section a:hover {
+	cursor: pointer;
+	background-color: var(--light-pink);
+	-webkit-box-shadow: 0px 0px 9px -2px var(--light-pink);
+	box-shadow: 0px 0px 9px -2px var(--light-pink);
+}
+
+.screen-mockups-img {
+	width: 100%;
+	margin-bottom: 10rem;
 }
 
 .attribution {
