@@ -11,7 +11,7 @@
 body {
 	font-size: 0.938rem;
 	font-family: var(--open-sans-font);
-	padding: 2rem 1.5rem 0 1.5rem;
+	margin: 2rem 0 0 0;
 }
 
 h1,
@@ -26,7 +26,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 10rem;
+	margin: 0 1.5rem 10rem 1.5rem;
 }
 header img {
 	width: 9rem;
@@ -47,7 +47,7 @@ header a:hover {
 
 .build-community-section {
 	text-align: center;
-	margin-bottom: 10rem;
+	margin: 0 1.5rem 10rem 1.5rem;
 }
 .build-community-section h1 {
 	font-size: 2.18rem;
@@ -82,7 +82,7 @@ header a:hover {
 
 .screen-mockups-img {
 	width: 100%;
-	margin-bottom: 10rem;
+	margin: 0 1.5rem 10rem 1.5rem;
 }
 
 .stats-section {
@@ -91,6 +91,7 @@ header a:hover {
 	height: 87vh;
 	align-items: center;
 	justify-content: space-between;
+	margin: 0 1.5rem;
 }
 .stats-section div {
 	display: flex;
@@ -110,6 +111,15 @@ header a:hover {
 	text-transform: capitalize;
 	text-align: center;
 	opacity: 40%;
+}
+
+/* .info-section div {
+	margin-top: 10rem;
+} */
+.bg-section-top-mobile-1 {
+	position: relative;
+	width: 100%;
+	left: 0;
 }
 
 .attribution {
