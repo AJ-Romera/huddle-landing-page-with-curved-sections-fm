@@ -85,6 +85,33 @@ header a:hover {
 	margin-bottom: 10rem;
 }
 
+.stats-section {
+	display: flex;
+	flex-direction: column;
+	height: 87vh;
+	align-items: center;
+	justify-content: space-between;
+}
+.stats-section div {
+	display: flex;
+	flex-direction: column;
+	width: 15rem;
+}
+.stats-section div img {
+	width: 2.75rem;
+}
+.stats-section div span {
+	font-size: 5.5rem;
+	font-weight: 700;
+}
+.stats-section div p {
+	font-size: 1.3rem;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: center;
+	opacity: 40%;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
