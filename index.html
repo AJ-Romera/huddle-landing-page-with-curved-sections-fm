@@ -143,7 +143,20 @@
 						to our weekly newsletter. We’ll never send you spam or
 						pass on your email address
 					</p>
-					<input type="email" name="" id="" />
+					<form id="form" action="#">
+						<div class="input-box">
+							<input
+								id="email"
+								type="email"
+								size="64"
+								maxlength="64"
+								required
+								onkeyup="validation()"
+							/>
+							<span id="error-text"></span>
+						</div>
+					</form>
+
 					<button type="submit">Subscribe</button>
 				</div>
 
@@ -228,5 +241,38 @@
 				</p>
 			</div>
 		</footer>
+
+		<script>
+			const validation = () => {
+				let form = document.getElementById('form');
+				let email = document.getElementById('email');
+				let errorText = document.getElementById('error-text');
+				let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+				if (email.value.match(pattern)) {
+					form.classList.add('valid');
+					form.classList.remove('invalid');
+					errorText.innerHTML =
+						'Your email is valid!. This is a test, you won´t receive any newsletter.';
+					errorText.style.color = 'green';
+					email.style.color = 'green';
+					email.style.borderColor = 'green';
+				} else {
+					form.classList.add('invalid');
+					form.classList.remove('valid');
+					errorText.innerHTML = 'Check your email please';
+					errorText.style.color = 'var(--light-red)';
+					email.style.color = 'var(--light-red)';
+					email.style.borderColor = 'var(--light-red)';
+				}
+
+				if (email.value == '' || email.value == ' ') {
+					form.classList.remove('valid');
+					form.classList.remove('invalid');
+					errorText.innerHTML = '';
+					email.style.borderColor = 'transparent';
+				}
+			};
+		</script>
 	</body>
 </html>

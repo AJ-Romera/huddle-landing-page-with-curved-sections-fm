@@ -207,13 +207,22 @@ header a:hover {
 	line-height: 2rem;
 	margin-bottom: 2.65rem;
 }
+.input-box {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1.5rem;
+}
 .newsletter input {
-	width: 100%;
-	height: 4rem;
+	height: 3rem;
 	border: 1px solid transparent;
 	border-radius: 0.75rem;
-	margin-bottom: 1.5rem;
-	padding: 0;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem 1rem;
+	font-family: var(--open-sans-font);
+	font-size: 1.5rem;
+}
+.newsletter input:focus-visible {
+	outline: none;
 }
 .newsletter button {
 	width: 50%;
