@@ -237,7 +237,7 @@ header a:hover {
 }
 
 .footer-info {
-	margin-bottom: 4rem;
+	margin-bottom: 3rem;
 }
 .footer-info img {
 	width: 60%;
@@ -252,7 +252,7 @@ header a:hover {
 .footer-contact {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 4rem;
+	margin-bottom: 3rem;
 }
 .footer-contact div {
 	display: flex;
@@ -272,7 +272,7 @@ header a:hover {
 
 .footer-social-media {
 	display: flex;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 	width: 35%;
 	justify-content: space-between;
 }
