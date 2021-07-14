@@ -270,9 +270,37 @@ header a:hover {
 	margin: 1rem 0;
 }
 
+.footer-social-media {
+	display: flex;
+	margin-bottom: 4rem;
+	width: 35%;
+	justify-content: space-between;
+}
+.footer-social-media svg {
+	width: 3rem;
+	height: 3rem;
+	/* cursor: pointer; */ /* uncomment if you want the SVG container to be cursor: pointer on hover */
+}
+.facebook-icon:hover {
+	fill: #1876f2;
+	transition: fill 0.3s ease-in;
+	cursor: pointer;
+}
+.instagram-icon:hover {
+	fill: #bb2ba2;
+	transition: fill 0.3s ease-in;
+	cursor: pointer;
+}
+.twitter-icon:hover {
+	fill: #1da1f2;
+	transition: fill 0.3s ease-in;
+	cursor: pointer;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
+	padding-bottom: 1rem;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
