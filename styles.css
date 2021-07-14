@@ -236,13 +236,39 @@ header a:hover {
 	transition: background-color 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
-/* .footer-info {
+.footer-info {
+	margin-bottom: 4rem;
 }
 .footer-info img {
-	mix-blend-mode: darken;
+	width: 60%;
+	filter: grayscale(1) invert(1) brightness(1.5);
 }
 .footer-info p {
-} */
+	font-size: 1.25rem;
+	font-weight: 400;
+	line-height: 2rem;
+}
+
+.footer-contact {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 4rem;
+}
+.footer-contact div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.footer-contact img {
+	width: 1.75rem;
+	height: 1.55rem;
+	margin-right: 1.6rem;
+}
+.footer-contact p {
+	font-size: 1.25rem;
+	font-weight: lighter;
+	margin: 1rem 0;
+}
 
 .attribution {
 	font-size: 11px;
