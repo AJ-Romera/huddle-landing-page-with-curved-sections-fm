@@ -76,13 +76,13 @@ header a:hover {
 	text-transform: capitalize;
 	-webkit-box-shadow: 0px 0px 9px -2px var(--pink);
 	box-shadow: 0px 0px 9px -2px var(--pink);
-	transition: all 0.3s ease-in;
 }
 .build-community-section a:hover {
 	cursor: pointer;
 	background-color: var(--light-pink);
 	-webkit-box-shadow: 0px 0px 9px -2px var(--light-pink);
 	box-shadow: 0px 0px 9px -2px var(--light-pink);
+	transition: background-color 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
 .screen-mockups-img {
@@ -173,13 +173,13 @@ header a:hover {
 	text-transform: capitalize;
 	-webkit-box-shadow: 0px 0px 9px -2px var(--pink);
 	box-shadow: 0px 0px 9px -2px var(--pink);
-	transition: all 0.3s ease-in;
 }
 .ready-to-build-section a:hover {
 	cursor: pointer;
 	background-color: var(--light-pink);
 	-webkit-box-shadow: 0px 0px 9px -2px var(--light-pink);
 	box-shadow: 0px 0px 9px -2px var(--light-pink);
+	transition: background-color 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
 .footer-container {
@@ -226,7 +226,6 @@ header a:hover {
 	border: 1px solid transparent;
 	border-radius: 0.5rem;
 	text-transform: capitalize;
-	transition: all 0.3s ease-in;
 	align-self: flex-end;
 }
 .newsletter button:hover {
@@ -234,6 +233,7 @@ header a:hover {
 	background-color: var(--light-pink);
 	-webkit-box-shadow: 0px 0px 9px -2px var(--light-pink);
 	box-shadow: 0px 0px 9px -2px var(--light-pink);
+	transition: background-color 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
 /* .footer-info {
