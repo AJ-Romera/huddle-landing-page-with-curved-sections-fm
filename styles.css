@@ -353,4 +353,10 @@ I can add more precise breakpoints but this is just a practice */
 	.screen-mockups-img {
 		width: 80%;
 	}
+
+	.stats-section {
+		flex-direction: row;
+		height: auto;
+		justify-content: space-evenly;
+	}
 }
