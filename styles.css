@@ -359,4 +359,46 @@ I can add more precise breakpoints but this is just a practice */
 		height: auto;
 		justify-content: space-evenly;
 	}
+
+	.info-section {
+		text-align: left;
+	}
+	.info-section div {
+		padding: 0;
+	}
+	.info-section div div {
+		width: 50%;
+	}
+	.info-section div img {
+		width: 40%;
+		padding: 0;
+	}
+	.info-section div h3 {
+		font-size: 2.25rem;
+	}
+	.info-section div p {
+		line-height: 1.75rem;
+		padding: 0;
+	}
+	.info-1 {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: space-around;
+		padding: 0 3rem !important;
+	}
+	.info-2 {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		padding: 0 3rem !important;
+	}
+	.info-3 {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: space-around;
+		padding: 0 3rem !important;
+	}
 }
