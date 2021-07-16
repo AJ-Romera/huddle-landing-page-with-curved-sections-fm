@@ -325,6 +325,7 @@ header a:hover {
 	font-size: 11px;
 	text-align: center;
 	padding-bottom: 1rem;
+	margin: 0;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
@@ -456,5 +457,76 @@ I can add more precise breakpoints but this is just a practice */
 	}
 	.bg-footer-top-desktop {
 		display: flex;
+	}
+
+	.footer-container {
+		margin-top: 0;
+		padding: 0 4.5rem;
+	}
+
+	.newsletter-and-contact-container {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding-top: 6rem;
+	}
+	.newsletter {
+		margin-bottom: 0rem;
+		width: 45%;
+	}
+	.info-and-contact {
+		width: 40%;
+	}
+	.newsletter h2 {
+		margin-bottom: 0.5rem;
+	}
+	.newsletter p {
+		width: 70%;
+		font-size: 1rem;
+	}
+	.newsletter form {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.input-box {
+		margin-bottom: 0;
+	}
+	.newsletter input {
+		width: 82%;
+		height: 2rem;
+	}
+	.newsletter button {
+		width: 60%;
+		height: 3rem;
+		align-self: flex-start;
+		font-size: 1rem;
+	}
+
+	.footer-info {
+		margin-bottom: 1rem;
+	}
+	.footer-info img {
+		width: 50%;
+		margin-bottom: 0.5rem;
+	}
+	.footer-info p {
+		width: 70%;
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.footer-contact img {
+		width: 1.5rem;
+		height: 1.35rem;
+		margin-right: 1.2rem;
+	}
+	.footer-contact p {
+		font-size: 1rem;
+	}
+
+	.footer-social-media {
+		width: 15%;
 	}
 }
