@@ -337,7 +337,7 @@ I can add more precise breakpoints but this is just a practice */
 /* @media screen and (min-width: 768px) {
 	
 } */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
 	body {
 		margin: 4rem 0 0 0; /* Not margin-top because there´re default margins I want to set to 0 */
 	}
@@ -353,9 +353,9 @@ I can add more precise breakpoints but this is just a practice */
 		font-size: 2.55rem;
 	}
 	.build-community-section p {
+		width: 85%;
 		font-size: 1.2rem;
 		margin: 0 auto 3.5rem auto;
-		width: 45%;
 		text-align: center;
 	}
 	.build-community-section a {
@@ -460,7 +460,7 @@ I can add more precise breakpoints but this is just a practice */
 	}
 
 	.footer-container {
-		margin-top: 0;
+		margin-top: -0.25rem;
 		padding: 0 4.5rem;
 	}
 
@@ -482,7 +482,7 @@ I can add more precise breakpoints but this is just a practice */
 		margin-bottom: 0.5rem;
 	}
 	.newsletter p {
-		width: 70%;
+		width: 100%;
 		font-size: 1rem;
 	}
 	.newsletter form {
@@ -494,7 +494,7 @@ I can add more precise breakpoints but this is just a practice */
 		margin-bottom: 0;
 	}
 	.newsletter input {
-		width: 82%;
+		width: 77%;
 		height: 2rem;
 	}
 	.newsletter button {
@@ -508,11 +508,11 @@ I can add more precise breakpoints but this is just a practice */
 		margin-bottom: 1rem;
 	}
 	.footer-info img {
-		width: 50%;
+		width: 75%;
 		margin-bottom: 0.5rem;
 	}
 	.footer-info p {
-		width: 70%;
+		width: 100%;
 		font-size: 1rem;
 		margin-bottom: 1rem;
 	}
@@ -527,6 +527,32 @@ I can add more precise breakpoints but this is just a practice */
 	}
 
 	.footer-social-media {
-		width: 15%;
+		width: 25%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.build-community-section p {
+		width: 45%;
+	}
+
+	.newsletter p {
+		width: 70%;
+	}
+	.newsletter input {
+		width: 82%;
+	}
+
+	.footer-info img {
+		width: 50%;
+	}
+	.footer-info p {
+		width: 70%;
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.footer-social-media {
+		width: 20%;
 	}
 }
